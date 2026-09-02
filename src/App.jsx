@@ -17,7 +17,6 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        {/* Header Section */}
         <header className="header">
           <img src={profileImg} alt="José Ítalo Oliveira de Pontes" className="profile-img" />
           <h1>José Ítalo Oliveira de Pontes</h1>
@@ -45,7 +44,6 @@ function App() {
           </div>
         </header>
 
-        {/* About Section */}
         <section id="about">
           <h2 className="section-title">Sobre Mim</h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '800px' }}>
@@ -58,7 +56,6 @@ function App() {
           </p>
         </section>
 
-        {/* Experience Section */}
         <section id="experience">
           <h2 className="section-title"><Briefcase size={24} /> Experiência Profissional</h2>
           
@@ -185,7 +182,6 @@ function App() {
           </div>
         </section>
 
-        {/* Complementary Experience Section */}
         <section id="complementary-experience">
           <h2 className="section-title"><Briefcase size={24} /> Experiência Complementar</h2>
           
@@ -266,7 +262,6 @@ function App() {
           </div>
         </section>
 
-        {/* Education Section */}
         <section id="education">
           <h2 className="section-title"><GraduationCap size={24} /> Formação Acadêmica</h2>
 
@@ -284,7 +279,6 @@ function App() {
           </div>
         </section>
 
-        {/* Courses Section */}
         <section id="courses">
           <h2 className="section-title"><GraduationCap size={24} /> Cursos Complementares</h2>
 
@@ -304,7 +298,6 @@ function App() {
           </div>
         </section>
 
-        {/* Skills Section */}
         <section id="skills">
           <h2 className="section-title"><Code size={24} /> Habilidades (Hard & Soft Skills)</h2>
           
