@@ -39,14 +39,14 @@ function App() {
 
           <div className="download-section">
             <a href={curriculoPdf} download="Curriculo_Jose_Italo.pdf" className="download-btn">
-              <Download size={16} /> Baixar CV (PDF)
+              <Download size={16} /> Baixar currículo
             </a>
           </div>
         </header>
 
         <section id="about">
           <h2 className="section-title">Sobre Mim</h2>
-          <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '800px' }}>
+          <p className="about-text">
             Estudante de Sistemas de Informação na UFPB com foco em desenvolvimento back-end Java e aplicações web. 
             Possuo experiência prática em desenvolvimento web, modelagem de sistemas, APIs REST, banco de dados, 
             Docker e versionamento com Git. Atuo em projetos acadêmicos e profissionais envolvendo desenvolvimento 
@@ -234,12 +234,12 @@ function App() {
                   <span className="company">Universidade Federal da Paraíba (UFPB)</span>
                 </div>
               </div>
-              <span className="experience-date">Novembro 2025 – Presente</span>
+              <span className="experience-date">Novembro 2025 – Agosto 2026</span>
             </div>
             <ul>
-              <li>Atuo como monitor da disciplina de Linguagem de Programação em Java, auxiliando estudantes no entendimento de lógica de programação e Programação Orientada a Objetos;</li>
-              <li>Contribuo na correção de atividades e no reforço dos conteúdos trabalhados em sala;</li>
-              <li>Auxilio o docente no acompanhamento da turma e na orientação acadêmica dos alunos.</li>
+              <li>Atuei como monitor da disciplina de Linguagem de Programação em Java, auxiliando estudantes no entendimento de lógica de programação e Programação Orientada a Objetos;</li>
+              <li>Contribuí na correção de atividades e no reforço dos conteúdos trabalhados em sala;</li>
+              <li>Auxiliei o docente no acompanhamento da turma e na orientação acadêmica dos alunos.</li>
             </ul>
           </div>
 
