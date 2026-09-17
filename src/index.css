@@ -80,6 +80,11 @@ section:last-child {
   font-size: 1.1rem;
   max-width: 800px;
   line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.about-text:last-of-type {
+  margin-bottom: 0;
 }
 
 .section-title::after {
@@ -91,7 +96,7 @@ section:last-child {
 
 /* Header */
 .header {
-  padding: 100px 0 60px;
+  padding: 100px 0 90px;
   text-align: center;
 }
 

@@ -11,9 +11,10 @@ import ufpbImg from './assets/ufpb.png';
 import aytyImg from './assets/ayty.png';
 import javaImg from './assets/java.png';
 import segurancaImg from './assets/seguranca.jpeg';
-import curriculoPdf from './assets/Curriculo_Italo.pdf';
+import enetrixImg from './assets/enetrix.png';
+import curriculoPdf from './assets/Curriculo_Jose_Italo.pdf';
 
-function App() {
+function App() { 
   return (
     <div className="App">
       <div className="container">
@@ -21,7 +22,7 @@ function App() {
           <img src={profileImg} alt="José Ítalo Oliveira de Pontes" className="profile-img" />
           <h1>José Ítalo Oliveira de Pontes</h1>
           <p className="subtitle">Desenvolvedor Full Stack Java | Estudante de Sistemas de Informação</p>
-          
+
           <div className="contact-links">
             <a href="mailto:jose.pontes@dcx.ufpb.br" target="_blank" rel="noopener noreferrer">
               <Mail size={16} /> jose.pontes@dcx.ufpb.br
@@ -47,18 +48,19 @@ function App() {
         <section id="about">
           <h2 className="section-title">Sobre Mim</h2>
           <p className="about-text">
-            Estudante de Sistemas de Informação na UFPB com foco em desenvolvimento back-end Java e aplicações web. 
-            Possuo experiência prática em desenvolvimento web, modelagem de sistemas, APIs REST, banco de dados, 
-            Docker e versionamento com Git. Atuo em projetos acadêmicos e profissionais envolvendo desenvolvimento 
-            Full Stack, configuração de ambientes de desenvolvimento e produção, além da automação de processos de 
-            integração e entrega contínua (CI/CD). Busco oportunidade para ampliar minha experiência com 
-            desenvolvimento Java, arquitetura de software e soluções baseadas no ecossistema Spring.
+            Estudante de Sistemas de Informação na UFPB, com foco em desenvolvimento Back-end, aplicações web e infraestrutura.
+          </p>
+          <p className="about-text">
+            Possuo experiência com Java, Spring Boot, Python, FastAPI, APIs REST, bancos de dados, Docker e Git. Também atuo com desenvolvimento Full Stack, configuração e manutenção de ambientes de desenvolvimento e produção, além de práticas de DevOps e CI/CD.
+          </p>
+          <p className="about-text">
+            Busco aprimorar meus conhecimentos em desenvolvimento Java, arquitetura de software, infraestrutura e ecossistema Spring.
           </p>
         </section>
 
         <section id="experience">
           <h2 className="section-title"><Briefcase size={24} /> Experiência Profissional</h2>
-          
+
           <div className="experience-item">
             <div className="experience-header">
               <div className="experience-main">
@@ -86,6 +88,33 @@ function App() {
               <span className="tech-tag">PostgreSQL</span>
               <span className="tech-tag">React</span>
               <span className="tech-tag">Docker</span>
+            </div>
+          </div>
+
+          <div className="experience-item">
+            <div className="experience-header">
+              <div className="experience-main">
+                <img src={enetrixImg} alt="Projeto Enetrix" className="experience-logo" />
+                <div className="experience-title">
+                  <h3>Bolsista CNPq — Desenvolvedor Back-end</h3>
+                  <span className="company" style={{ display: 'block' }}>Projeto Enetrix — UFPB</span>
+                  <a href="https://enetrix.ufpb.br/pt" target="_blank" rel="noopener noreferrer" className="project-link">
+                    enetrix.ufpb.br <ExternalLink size={14} />
+                  </a>
+                </div>
+              </div>
+              <span className="experience-date">2026 – Presente</span>
+            </div>
+            <ul>
+              <li>Atuação no desenvolvimento e manutenção da plataforma Enetrix, voltada ao registro, organização e análise de acordos internacionais relacionados à energia;</li>
+              <li>Foco principal no desenvolvimento back-end, com implementação e estruturação de APIs;</li>
+              <li>Modelagem e gerenciamento de banco de dados, além de atuar na configuração e manutenção da infraestrutura da aplicação.</li>
+            </ul>
+            <div className="tech-stack">
+              <span className="tech-tag">Python</span>
+              <span className="tech-tag">FastAPI</span>
+              <span className="tech-tag">PostgreSQL</span>
+              <span className="tech-tag">Infraestrutura</span>
             </div>
           </div>
 
@@ -122,18 +151,23 @@ function App() {
               <div className="experience-main">
                 <div className="experience-title">
                   <h3>Desenvolvedor Web Freelancer</h3>
-                  <span className="company" style={{ display: 'block' }}>Projeto: Website Institucional Jerry Adriane</span>
-                  <a href="https://jerry-adriane.com.br" target="_blank" rel="noopener noreferrer" className="project-link">
-                    jerry-adriane.com.br <ExternalLink size={14} />
-                  </a>
+                  <span className="company" style={{ display: 'block' }}>Projetos: Studio Print | Jerry Adriane</span>
+                  <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginTop: '4px' }}>
+                    <a href="https://studionprint.shop" target="_blank" rel="noopener noreferrer" className="project-link">
+                      studionprint.shop <ExternalLink size={14} />
+                    </a>
+                    <a href="https://jerry-adriane.com.br" target="_blank" rel="noopener noreferrer" className="project-link">
+                      jerry-adriane.com.br <ExternalLink size={14} />
+                    </a>
+                  </div>
                 </div>
               </div>
               <span className="experience-date">Março 2026 – Presente</span>
             </div>
             <ul>
-              <li>Desenvolvimento de website institucional responsivo para presença digital do cliente;</li>
-              <li>Implementação da interface e estruturação visual das páginas;</li>
-              <li>Publicação e disponibilização do projeto em ambiente web.</li>
+              <li>Desenvolvimento de websites responsivos para presença digital de clientes;</li>
+              <li>Implementação das interfaces e estruturação visual das páginas;</li>
+              <li>Publicação e disponibilização dos projetos em ambiente web.</li>
             </ul>
             <div className="tech-stack">
               <span className="tech-tag">HTML</span>
@@ -184,7 +218,7 @@ function App() {
 
         <section id="complementary-experience">
           <h2 className="section-title"><Briefcase size={24} /> Experiência Complementar</h2>
-          
+
           <div className="experience-item">
             <div className="experience-header">
               <div className="experience-main">
@@ -216,12 +250,12 @@ function App() {
                   <span className="company">Universidade Federal da Paraíba (UFPB)</span>
                 </div>
               </div>
-              <span className="experience-date">Maio 2026 – Presente</span>
+              <span className="experience-date">Maio 2026 – Agosto 2026</span>
             </div>
             <ul>
               <li>Participação voluntária em projeto de pesquisa sobre o uso de Inteligência Artificial Generativa no ensino de Programação Orientada a Objetos com Java;</li>
-              <li>Realizo levantamento bibliográfico e análise de dados relacionados ao tema da pesquisa;</li>
-              <li>Produzo documentação e acompanho os resultados da pesquisa.</li>
+              <li>Realizei levantamento bibliográfico e análise de dados relacionados ao tema da pesquisa;</li>
+              <li>Produzi documentação e acompanhei os resultados da pesquisa.</li>
             </ul>
           </div>
 
@@ -300,7 +334,7 @@ function App() {
 
         <section id="skills">
           <h2 className="section-title"><Code size={24} /> Habilidades (Hard & Soft Skills)</h2>
-          
+
           <div className="skills-grid">
             <div className="skill-category">
               <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px' }}><Server size={18} /> Back-end & Infra</h4>
@@ -313,20 +347,24 @@ function App() {
                 <li>Linux & Shell Script</li>
               </ul>
             </div>
-            
+
             <div className="skill-category">
               <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px' }}><Monitor size={18} /> Front-end</h4>
               <ul>
                 <li>React</li>
                 <li>HTML & CSS</li>
                 <li>JavaScript</li>
+                <li>Axios</li>
+                <li>Vite</li>
               </ul>
             </div>
 
             <div className="skill-category">
               <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px' }}><Wrench size={18} /> Ferramentas & Outros</h4>
               <ul>
-                <li>Git & GitHub</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>CI/CD</li>
                 <li>Python</li>
                 <li>Servidores</li>
               </ul>
