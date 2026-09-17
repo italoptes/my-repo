@@ -103,7 +103,7 @@ function App() {
                   </a>
                 </div>
               </div>
-              <span className="experience-date">2026 – Presente</span>
+              <span className="experience-date">Setembro 2026 – Presente</span>
             </div>
             <ul>
               <li>Atuação no desenvolvimento e manutenção da plataforma Enetrix, voltada ao registro, organização e análise de acordos internacionais relacionados à energia;</li>
